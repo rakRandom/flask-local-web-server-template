@@ -6,18 +6,18 @@ This is just a basic local web server hosting made for fun, and it was not desig
 
 ## Step by step guide to use
 
-### Setup a virtual environment (Optional):
+### Setup a virtual environment (Optional)
 ``` cmd
 python -m venv env
 .\env\Scripts\activate
 ```
 
-### Update pip (Optional):
+### Update pip (Optional)
 ``` cmd
 python.exe -m pip install --upgrade pip
 ```
 
-### Install the requirements:
+### Install the requirements
 ``` cmd
 pip install -r requirements.txt
 ```
@@ -26,12 +26,12 @@ or
 pip install flask
 ```
 
-### Start the Flask Server:
+### Start the Flask Server
 ``` cmd
 python app.py
 ```
 
-### Test the template:
+### Test the template
 First you need to get your IPv4 number, you can get using this command on Windows:
 ``` cmd
 ipconfig
